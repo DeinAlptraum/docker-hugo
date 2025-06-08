@@ -11,7 +11,7 @@ RUN apk add --no-cache \
 
 RUN rm -rf /tmp/* /var/tmp/* /var/lib/apt/lists/*
 
-ENV VERSION 0.88.1
+ENV VERSION 0.89.4
 
 RUN mkdir -p /usr/local/src \
     && cd /usr/local/src \
